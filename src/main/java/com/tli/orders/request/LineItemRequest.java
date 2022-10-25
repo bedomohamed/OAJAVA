@@ -7,8 +7,8 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class QuantityRequest {
-    int orderId;
-    int itemId;
-    double quantity;
+public class LineItemRequest {
+    String name;
+    Double price;
+    Double quantity;
 }
